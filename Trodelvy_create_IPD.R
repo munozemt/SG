@@ -1,7 +1,7 @@
 ### Algorithm to create a raw dataset from DigizeIt readings from a Kaplan-Meier curve ###
 
 # Paquetes
-pacman::p_load(MASS, splines, survival, IPDfromKM)
+pacman::p_load(MASS, splines, survival, flexsurv, IPDfromKM)
 
 rm(list=ls()) # Limpiamos el entorno
 
